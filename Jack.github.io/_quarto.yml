@@ -1,5 +1,8 @@
 # This file controls the settings for your Quarto template from www.marvinschmitt.com
-
+project:
+  type: website
+  output-dir: docs
+  
 website:
   title: "Zunren Liu"
   description: "Second year PhD student at BSTP"
@@ -38,10 +41,6 @@ website:
       <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
     right: |
       <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
-
-project:
-  type: website
-  output-dir: docs
 
   preview: 
     port: 22222
